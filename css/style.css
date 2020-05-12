@@ -1,0 +1,141 @@
+@font-face{
+	font-family: Brandon_reg;
+	src: url(../fonts/Brandon_reg.otf);
+}
+@font-face{
+	font-family: Cubano;
+	src: url(../fonts/Cubano.ttf);
+}
+@font-face{
+	font-family: Brandon_med;
+	src: url(../fonts/Brandon_med.otf);
+}
+@font-face{
+	font-family: Brandon_light;
+	src: url(../fonts/Brandon_light.otf);
+}
+@font-face{
+	font-family: Brandon_bld;
+	src: url(../fonts/Brandon_bld.otf);
+}
+/*Header Area Start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-area {
+	overflow: hidden;
+	background: url(../assets/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.background{
+	width: 100%;
+	height: 680px;
+	background-color: rgba(0,0,0,.4);
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.nav-logo img {
+	width: 25px;
+	float: left;
+	padding: 5px;
+	margin-top: 35px;
+}
+.heading {
+	text-transform: uppercase;
+}
+.heading a{
+	text-decoration: none;
+}
+.heading a h2{
+	font-family: Cubano;
+	font-size: 25px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 0px;
+	padding-top: 35px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+.right-nav::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.right-nav{
+	margin-top: 37px;
+	float: right;
+	width: 40%;
+}
+.right-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.right-nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.right-nav ul li a{
+	font-family: Brandon_med;
+    font-size: 20px;
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	margin-right: 10px;
+}
+.right-nav ul li a:hover{
+	text-decoration: underline;
+}
+.content1::before{
+	content: '';
+	clear: both;
+	display: block;
+}
+.content1{
+	display: block;
+	width: 100%;
+	margin-top: 250px;
+	text-align: center;
+}
+.content1 p{
+	font-family: Brandon_light;
+    font-size: 32px;
+	color: #fff;
+}
+.content2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+}
+.content2 h2{
+	font-family: Brandon_bld;
+    font-size: 66px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.learn-more{
+	width: 190px;
+	margin: auto;
+	
+}
+.learn-more p{
+	font-family: Brandon_bld;
+	font-size: 23px;
+	color: white;
+	margin-top: 65px;
+	border: 3px solid white;
+	background: transparent;
+	padding: 13px 37px;
+}
+.learn-more p:hover{
+	background-color: #fff;
+	color: black;
+}
+/*Header Area End*/
