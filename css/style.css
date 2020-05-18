@@ -489,6 +489,7 @@
 }
 .container5 {
 	width: 100%;
+	margin: 0 auto;
 	overflow: hidden;
 }
 .wrap6 {
@@ -513,12 +514,14 @@
 }
 .team-members {
 	width: 32%;
-	float: left;
 	padding: 12px;
+	float: left;
+	margin-bottom: 40px;
 }
 .team-members-pic{
 	width: 240px;
 	height: 240px;
+	
 	margin-top: 42px;
 	margin-left: 177px;
 	border-radius: 50%;
@@ -586,13 +589,121 @@
 	background-position: -420px -84px;
 	transition: 1s;
 }
-.quote-about-team {
-    text-align: center;
-    margin-top: 20px;
-}
 .text {
+	text-align: center;
 	font-family: Brandon_light;
     font-size: 20px;
 }
 
 /*Section-6 End*/
+/*section-7 Start*/
+.contact {
+	background: #7690C5;
+	color: #fff;
+}
+.container6 {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrap7 {
+	margin: 120px 0;
+    overflow: hidden;
+}
+.contact_left {
+	width: 45%;
+	float: left;
+	margin-left: 45px;
+}
+.contact_list {
+	margin-top: 50px;
+	overflow: hidden;
+}
+.list_left {
+	width: 40%;
+	float: left;
+}
+.contact1 {
+	overflow: hidden;
+}
+.contact2, .contact3 {
+	margin-top: 50px;
+	overflow: hidden;
+}
+.contact1_logo, .contact2_logo, .contact3_logo {
+	float: left;
+	margin-right: 30px;
+}
+.contact1_num, .contact2_email, .contact3_twitter {
+    font-family: Brandon_reg;
+    font-size: 18px;
+
+}
+.list_right {
+	width: 40%;
+	float: right;
+}
+.contact4 {
+	overflow: hidden;
+}
+.contact5, .contact6 {
+	margin-top: 50px;
+	overflow: hidden;
+}
+.contact4_logo, .contact5_logo, .contact6_logo {
+	float: left;
+	margin-right: 30px;
+}
+.contact4_facebook, .contact5_g, .contact6_p {
+    font-family: Brandon_reg;
+    font-size: 18px;
+
+}
+.contact_right {
+	width: 45%;
+	float: right;
+	min-height: 200px;
+}
+.y_n {
+	width: 451px;
+	height: 40px;
+    font-family: Brandon_med;
+    font-size: 18px;
+    padding: 6px 0 6px 20px;
+    margin-bottom: 30px;
+}
+.y_m {
+	width: 451px;
+	height: 40px;
+    font-family: Brandon_med;
+    font-size: 18px;
+    padding: 6px 0 6px 20px;
+    margin-bottom: 30px;
+}
+.y_message {
+    font-family: Brandon_med;
+    font-size: 18px;
+    padding: 6px 0 6px 20px;
+    margin-bottom: 30px;
+}
+.submit {
+	font-family: Brandon_med;
+    font-size: 18px;
+    padding: 10px 40px;
+    border: none;
+}
+.submit:hover {
+	background: black;
+	color: #fff;
+}
+.footer {
+	border-top: 2px solid #fff;
+}
+.footer p {
+	text-align: center;
+	font-family: Brandon_med;
+	font-size: 16px;
+	margin: 30px;
+}
+
+/*Section-7 End*/
